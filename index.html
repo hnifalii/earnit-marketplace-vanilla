@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <title>earnit: One Marketplace at a Time</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <!-- Top nav -->
+      <div class="bg-[#43BDE4] bg-opacity-20 py-[6px] flex justify-between">
+        <div class="mx-14 text-[12px] opacity-70 justify-start">
+          <a>&copy;earnit 2023. All rights reserved.</a>
+        </div>
+        <div class="mx-14 text-[12px] opacity-70 justify-end">
+          <a class="mx-4">Tentang Kami</a>
+          <a class="mx-4">Customer Care</a>
+        </div>
+      </div>
+      <!-- Nav panel -->
+      <div class="flex py-2">
+        <div class="pl-14 pr-5 py-2">
+          <h1 class="text-4xl font-bold text-[#43BDE4]">earnit</h1>
+        </div>
+        <!-- search bar -->
+        <div class="flex container justify-center p-3">
+          <div class="container">
+            <form action="/action_page.php" class="justify-center">
+              <input
+                class="w-[820px] p-2 px-6 rounded-lg border-[1px] border-black border-opacity-30 focus:outline-none bg-[#43BDE4] bg-opacity-20"
+                type="text"
+                placeholder="Cari barang atau layanan..."
+                name="search"
+              />
+              <button type="submit"><i class=""></i></button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Mail -->
+        <div class="py-2 flex justify-evenly">
+          <div class="p-3">
+            <a href=""
+              ><svg
+                width="24"
+                height="22"
+                viewBox="0 0 40 32"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.99957 2V0C0.895003 0 -0.000427246 0.895431 -0.000427246 2H1.99957ZM37.9996 2H39.9996C39.9996 0.895431 39.1041 0 37.9996 0V2ZM37.9996 30V32C39.1041 32 39.9996 31.1046 39.9996 30H37.9996ZM1.99957 30H-0.000427246C-0.000427246 31.1046 0.895003 32 1.99957 32L1.99957 30ZM2.97086 4.25169C2.00529 3.71526 0.787685 4.06315 0.251258 5.02871C-0.285168 5.99428 0.0627194 7.21189 1.02829 7.74831L2.97086 4.25169ZM19.9996 16L19.0283 17.7483C19.6323 18.0839 20.3668 18.0839 20.9709 17.7483L19.9996 16ZM38.9709 7.74831C39.9364 7.21189 40.2843 5.99428 39.7479 5.02871C39.2115 4.06315 37.9939 3.71526 37.0283 4.25169L38.9709 7.74831ZM1.99957 4H37.9996V0H1.99957V4ZM35.9996 2V30H39.9996V2H35.9996ZM37.9996 28H1.99957V32H37.9996V28ZM3.99957 30V2H-0.000427246V30H3.99957ZM1.02829 7.74831L19.0283 17.7483L20.9709 14.2517L2.97086 4.25169L1.02829 7.74831ZM20.9709 17.7483L38.9709 7.74831L37.0283 4.25169L19.0283 14.2517L20.9709 17.7483Z"
+                  fill="black"
+                /></svg
+            ></a>
+          </div>
+          <!-- Wishlist -->
+          <div class="p-3">
+            <a href=""
+              ><svg
+                width="24"
+                height="22"
+                viewBox="0 0 40 36"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M38 11.0001C38 23.4888 20.0007 34.0001 20.0007 34.0001C20.0007 34.0001 2 23.3334 2 11.0254C2 6.00005 6 2.00005 11 2.00005C16 2.00005 20 8.00005 20 8.00005C20 8.00005 24 2.00005 29 2.00005C34 2.00005 38 6.00005 38 11.0001Z"
+                  stroke="black"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div>
+          <!-- Chat -->
+          <div class="p-3">
+            <a href=""
+              ><svg
+                width="24"
+                height="24"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M18 0H2C0.9 0 0 0.9 0 2V20L4 16H18C19.1 16 20 15.1 20 14V2C20 0.9 19.1 0 18 0ZM18 14H4L2 16V2H18V14ZM5 7H7V9H5V7ZM9 7H11V9H9V7ZM13 7H15V9H13V7Z"
+                  fill="black"
+                />
+              </svg>
+            </a>
+          </div>
+          <!-- User -->
+          <div class="p-3">
+            <a href=""
+              ><svg
+                width="24"
+                height="22"
+                viewBox="0 0 32 38"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M9.87498 10C9.87498 6.61726 12.6172 3.875 16 3.875C19.3827 3.875 22.125 6.61726 22.125 10C22.125 13.3827 19.3827 16.125 16 16.125C12.6172 16.125 9.87498 13.3827 9.87498 10ZM16 0.125C10.5462 0.125 6.12498 4.54619 6.12498 10C6.12498 15.4538 10.5462 19.875 16 19.875C21.4538 19.875 25.875 15.4538 25.875 10C25.875 4.54619 21.4538 0.125 16 0.125ZM3.875 32.6666C3.875 29.9752 5.99015 27.8749 8.5 27.8749H23.5C26.0099 27.8749 28.125 29.9752 28.125 32.6666V34.1249H3.875V32.6666ZM8.5 24.1249C3.83015 24.1249 0.125 27.9942 0.125 32.6666V35.9999C0.125 37.0355 0.964466 37.8749 2 37.8749H30C31.0355 37.8749 31.875 37.0355 31.875 35.9999V32.6666C31.875 27.9942 28.1699 24.1249 23.5 24.1249H8.5Z"
+                  fill="black"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- opsi -->
+      <div
+        class="flex whitespace-nowrap px-14 py-2 border-[1px] border-black border-opacity-30"
+      >
+        <div class="flex pr-4">
+          <a href="#" class="pr-1 text-[16px]">Semua Kategori</a>
+          <a
+            href="#"
+            class="p-2 active:rotate-180"
+            id="down"
+            onclick="downToUp()"
+            ><img src="assets/down.png" width="10"
+          /></a>
+        </div>
+        <div class="flex text-[16px]">
+          <a href="" class="px-2 hover:text-blue-400 duration-500"
+            >Elektronik</a
+          >
+          <a href="" class="px-2 hover:text-blue-400 duration-500">Pakaian</a>
+          <a href="" class="px-2 hover:text-blue-400 duration-500"
+            >Peralatan rumah tangga</a
+          >
+          <a href="" class="px-2">|</a>
+        </div>
+        <div class="flex pr-4">
+          <a href="" class="px-2">Software Development</a>
+          <a href="" class="px-2">Design</a>
+          <a href="" class="px-2">Photo & video Editing</a>
+        </div>
+        
+        <div class="flex px-2 align-middle">
+          <div class="inline-block pr-1">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 25 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M6.46558 9.71559C6.46558 7.63711 7.18014 6.09411 8.27811 5.06731C9.38406 4.03305 10.9406 3.46559 12.7156 3.46559C14.4888 3.46559 16.0456 4.03768 17.1524 5.07526C18.2516 6.10567 18.9656 7.64941 18.9656 9.71559C18.9656 12.7351 17.3315 15.8241 15.6066 18.2239C14.7539 19.4102 13.8998 20.3996 13.2589 21.0922C13.0529 21.3147 12.8694 21.5062 12.7156 21.6632C12.5617 21.5062 12.3782 21.3147 12.1723 21.0922C11.5314 20.3996 10.6773 19.4102 9.82458 18.2239C8.0996 15.8241 6.46558 12.7351 6.46558 9.71559ZM12.2059 23.2658C12.206 23.2659 12.2062 23.2661 12.7156 22.7156L12.2062 23.2661C12.4937 23.5321 12.9375 23.5321 13.2249 23.2661L12.7156 22.7156C13.2249 23.2661 13.2251 23.2659 13.2253 23.2658L13.2258 23.2653L13.2273 23.2639L13.2322 23.2593L13.2494 23.2432C13.2642 23.2293 13.2854 23.2093 13.3126 23.1833C13.367 23.1313 13.4454 23.0553 13.5445 22.957C13.7427 22.7605 14.0236 22.4743 14.3598 22.111C15.0314 21.3853 15.9273 20.3477 16.8246 19.0994C18.5996 16.6299 20.4656 13.219 20.4656 9.71559C20.4656 7.28178 19.6126 5.32552 18.1783 3.98092C16.7516 2.64351 14.8084 1.96559 12.7156 1.96559C10.6246 1.96559 8.6811 2.63671 7.25355 3.97174C5.81801 5.31423 4.96558 7.27123 4.96558 9.71559C4.96558 13.219 6.83155 16.6299 8.60658 19.0994C9.50387 20.3477 10.3998 21.3853 11.0714 22.111C11.4075 22.4743 11.6885 22.7605 11.8866 22.957C11.9857 23.0553 12.0642 23.1313 12.1186 23.1833C12.1458 23.2093 12.167 23.2293 12.1817 23.2432L12.1989 23.2593L12.2038 23.2639L12.2053 23.2653L12.2059 23.2658ZM10.4656 9.71559C10.4656 8.47295 11.4729 7.46559 12.7156 7.46559C13.9582 7.46559 14.9656 8.47295 14.9656 9.71559C14.9656 10.9582 13.9582 11.9656 12.7156 11.9656C11.4729 11.9656 10.4656 10.9582 10.4656 9.71559ZM12.7156 5.96559C10.6445 5.96559 8.96558 7.64452 8.96558 9.71559C8.96558 11.7867 10.6445 13.4656 12.7156 13.4656C14.7866 13.4656 16.4656 11.7867 16.4656 9.71559C16.4656 7.64452 14.7866 5.96559 12.7156 5.96559Z"
+                fill="black"
+              />
+            </svg>
+          </div>
+          <a href="" class="text-[16px] pr-1">Dikirim ke</a>
+          <p class="text-[16px] font-bold">Semarang</p>
+        </div>
+      </div>
+      <!-- done -->
+    </nav>
+
+    <!-- section -->
+    <section class="block">
+      <div class="slider flex justify-center py-6">
+        <img src="../src/assets/promoo.jpg" width="1000" class="rounded-xl" />
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- <footer class="bg- text-white p-12">
+      <div class="container mx-auto text-center mb-4">
+        <p>&copy;2023 earnit. All rights reserved.</p>
+      </div>
+      <div class="flex text-center justify-center space-x-4 mx-8">
+        <a href="#" class="hover:underline hover:scale-110">About us</a>
+        <a href="#" class="hover:underline hover:scale-110">Contact us</a>
+      </div>
+    </footer> -->
+    <!-- <script>
+      function downToUp() {
+        let arrow = document.getElementById("down");
+        arrow.style.rotate = "none";
+      }
+    </script> -->
+  </body>
+</html>

@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>earnit</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Add icon library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body id="body-bg">
+    <!-- Header -->
+    <div class="header">
+      <div class="copy">
+        <p>&copy;earnit 2023. All rights reserved.</p>
+      </div>
+      <div class="header-links">
+        <a href="about.html">Tentang Kami</a>
+        <a href="custcare.html">Customer Care</a>
+      </div>
+    </div>
+
+    <!-- Top Navbar -->
+    <div class="top-navbar">
+      <div class="container">
+        <!-- Logo -->
+        <div class="logo">
+          <a href="index.html">earnit</a>
+        </div>
+
+        <!-- Search -->
+        <div class="search-bar">
+          <form action="#">
+            <div class="search-icon">
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 48 50"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M31.6699 29.6979H30.1108L29.5582 29.1354C31.4923 26.7604 32.6566 23.6771 32.6566 20.3229C32.6566 12.8437 26.9137 6.78125 19.8289 6.78125C12.744 6.78125 7.00116 12.8437 7.00116 20.3229C7.00116 27.8021 12.744 33.8646 19.8289 33.8646C23.0062 33.8646 25.927 32.6354 28.1768 30.5937L28.7096 31.1771V32.8229L38.5771 43.2187L41.5176 40.1146L31.6699 29.6979ZM19.8289 29.6979C14.9149 29.6979 10.9482 25.5104 10.9482 20.3229C10.9482 15.1354 14.9149 10.9479 19.8289 10.9479C24.7429 10.9479 28.7096 15.1354 28.7096 20.3229C28.7096 25.5104 24.7429 29.6979 19.8289 29.6979Z"
+                  fill="#1C1C1C"
+                />
+              </svg>
+            </div>
+            <input
+              class="search"
+              type="text"
+              placeholder="Cari barang atau layanan..."
+              name="search"
+            />
+            <button type="submit" hidden></button>
+          </form>
+        </div>
+
+        <!-- Icons -->
+        <div class="nav-icons">
+          <!-- Notifications -->
+          <div class="notifications">
+            <a href="#">
+              <svg
+                width="26"
+                height="26"
+                viewBox="0 0 40 32"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.99957 2V0C0.895003 0 -0.000427246 0.895431 -0.000427246 2H1.99957ZM37.9996 2H39.9996C39.9996 0.895431 39.1041 0 37.9996 0V2ZM37.9996 30V32C39.1041 32 39.9996 31.1046 39.9996 30H37.9996ZM1.99957 30H-0.000427246C-0.000427246 31.1046 0.895003 32 1.99957 32L1.99957 30ZM2.97086 4.25169C2.00529 3.71526 0.787685 4.06315 0.251258 5.02871C-0.285168 5.99428 0.0627194 7.21189 1.02829 7.74831L2.97086 4.25169ZM19.9996 16L19.0283 17.7483C19.6323 18.0839 20.3668 18.0839 20.9709 17.7483L19.9996 16ZM38.9709 7.74831C39.9364 7.21189 40.2843 5.99428 39.7479 5.02871C39.2115 4.06315 37.9939 3.71526 37.0283 4.25169L38.9709 7.74831ZM1.99957 4H37.9996V0H1.99957V4ZM35.9996 2V30H39.9996V2H35.9996ZM37.9996 28H1.99957V32H37.9996V28ZM3.99957 30V2H-0.000427246V30H3.99957ZM1.02829 7.74831L19.0283 17.7483L20.9709 14.2517L2.97086 4.25169L1.02829 7.74831ZM20.9709 17.7483L38.9709 7.74831L37.0283 4.25169L19.0283 14.2517L20.9709 17.7483Z"
+                  fill="black"
+                />
+              </svg>
+            </a>
+          </div>
+
+          <!-- Wishlist -->
+          <div class="wishlist">
+            <a href="#">
+              <svg
+                width="26"
+                height="26"
+                viewBox="0 0 40 36"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M38 11.0001C38 23.4888 20.0007 34.0001 20.0007 34.0001C20.0007 34.0001 2 23.3334 2 11.0254C2 6.00005 6 2.00005 11 2.00005C16 2.00005 20 8.00005 20 8.00005C20 8.00005 24 2.00005 29 2.00005C34 2.00005 38 6.00005 38 11.0001Z"
+                  stroke="black"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div>
+
+          <!-- Chat -->
+          <div class="chat">
+            <a href="#">
+              <svg
+                width="26"
+                height="26"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M18 0H2C0.9 0 0 0.9 0 2V20L4 16H18C19.1 16 20 15.1 20 14V2C20 0.9 19.1 0 18 0ZM18 14H4L2 16V2H18V14ZM5 7H7V9H5V7ZM9 7H11V9H9V7ZM13 7H15V9H13V7Z"
+                  fill="#1C1C1C"
+                />
+              </svg>
+            </a>
+          </div>
+
+          <!-- Account -->
+          <div class="account">
+            <a href="#" id="loginButton">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 32 38"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M9.87498 10C9.87498 6.61726 12.6172 3.875 16 3.875C19.3827 3.875 22.125 6.61726 22.125 10C22.125 13.3827 19.3827 16.125 16 16.125C12.6172 16.125 9.87498 13.3827 9.87498 10ZM16 0.125C10.5462 0.125 6.12498 4.54619 6.12498 10C6.12498 15.4538 10.5462 19.875 16 19.875C21.4538 19.875 25.875 15.4538 25.875 10C25.875 4.54619 21.4538 0.125 16 0.125ZM3.875 32.6666C3.875 29.9752 5.99015 27.8749 8.5 27.8749H23.5C26.0099 27.8749 28.125 29.9752 28.125 32.6666V34.1249H3.875V32.6666ZM8.5 24.1249C3.83015 24.1249 0.125 27.9942 0.125 32.6666V35.9999C0.125 37.0355 0.964466 37.8749 2 37.8749H30C31.0355 37.8749 31.875 37.0355 31.875 35.9999V32.6666C31.875 27.9942 28.1699 24.1249 23.5 24.1249H8.5Z"
+                  fill="black"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Navbar -->
+    <div class="bot-navbar">
+      <div class="container">
+        <div class="category" id="category">
+          <a href="#" class="text">Semua Kategori</a>
+          <a href="#">
+            <svg
+              id="category-arrow"
+              onclick="toggleArrow()"
+              width="10"
+              height="8"
+              viewBox="0 0 16 8"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0.916687 0.458374L8.00002 7.54171L15.0834 0.458374H0.916687Z"
+                fill="#1C1C1C"
+              />
+            </svg>
+          </a>
+        </div>
+        <div class="trending-category">
+          <div class="product-category">
+            <a href="#">Elektronik</a>
+            <a href="#">Pakaian</a>
+            <a href="#">Peralatan Rumah Tangga</a>
+          </div>
+
+          <p style="opacity: 0.3; font-weight: 500">|</p>
+
+          <div class="service-category">
+            <a href="#">Software Development</a>
+            <a href="#">Design</a>
+            <a href="#">Photo & Video Editing</a>
+          </div>
+        </div>
+
+        <div class="start-selling">
+          <a href="#">Mulai Berjualan</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Login Popup -->
+    <div class="login-modal">
+      <div class="login-popup" id="loginPopup">
+        <form action="">
+          <div class="container">
+            <input type="text" placeholder="Username" />
+            <input type="password" placeholder="Password" />
+            <button type="submit" id="loginButton">LOGIN</button>
+            <div class="close-button">
+              <button type="button" id="closeLogin">Close</button>
+            </div>
+          </form>
+          <p>Doesn't have an account? <span style="color: blue;"><a href="">Create account</a></span></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ads -->
+    <div class="ads">
+      <div class="section">
+        <img src="assets/images/promoo.jpg" />
+      </div>
+    </div>
+
+    <!-- Promo -->
+    <div class="promo">
+      <div class="section">
+        <div class="h4">
+          <p>Produk Yang Sedang Turun Harga!!</p>
+        </div>
+        <div class="p">
+          <p>Cek produk-produk yang sedang diskon!</p>
+        </div>
+        <div class="product-section">
+          <div class="product">
+            <img src="" alt="Ambatron" />
+            <div class="container">
+              <h3>Ambatron</h3>
+              <p>Sebuah robot dari masa depan</p>
+              <s>400.000</s>
+              <h5>300.000</h5>
+            </div>
+          </div>
+        </div>
+        <div class="a">
+          <a href="#">Lihat semua</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product Recommendation -->
+    <div class="product-recommendation">
+      <div class="title">
+        <a href="#">Produk Rekomendasi</a>
+        <a href="#">Lihat semua</a>
+      </div>
+
+      <div class="section">
+        <a href="product.html"><div class="product">
+          <img src="" alt="Ambatron" />
+          <div class="container">
+            <h3>Ambatron</h3>
+            <p>Sebuah robot dari masa depan</p>
+            <h5>300.000</h5>
+          </div>
+        </div>
+      </div></a>
+    </div>
+
+    <!-- Service Recommendation -->
+    <div class="service-recommendation">
+      <div class="title">
+        <a href="#">Layanan Rekomendasi</a>
+        <a href="#">Lihat semua</a>
+      </div>
+
+      <div class="section">
+        <div class="product">
+          <img src="" alt="JJK" />
+          <div class="container">
+            <h3>Just Joki</h3>
+            <p>Jasa Joki semua tugas</p>
+            <h5>1.000.000.000</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="section">
+        <div class="left-side">
+          <div class="logo">
+            <h2>earnit</h2>
+          </div>
+          <div class="social-media">
+            <p>Social Media</p>
+            <div class="google">
+              <a href="#" class="fa fa-google"></a>
+              <p>gmail@gmail.com</p>
+            </div>
+            <div class="whatsapp">
+              <a href="#" class="fa fa-whatsapp"></a>
+              <p>086969696969</p>
+            </div>
+            <div class="instagram">
+              <a href="#" class="fa fa-instagram"></a>
+              <p>www.instagram.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="center-side">
+          <div class="h5">
+            <h5>Customer Service</h5>
+          </div>
+          <div class="list">
+            <ul>
+              <li><a href="about.html">Tentang kami</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Syarat dan Ketentuan</a></li>
+              <li><a href="custcare.html">Customer Care</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="center-side">
+          <div class="h5">
+            <h5>Customer Service</h5>
+          </div>
+          <div class="list">
+            <ul>
+              <li><a href="about.html">Tentang kami</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Syarat dan Ketentuan</a></li>
+              <li><a href="custcare.html">Customer Care</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-copyright">
+        <p>&copy;earnit 2023 All right reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      function toggleArrow() {
+        const arrow = document.getElementById("category-arrow");
+        arrow.style.rotate = "180deg";
+      }
+
+      const loginPopup = document.getElementById("loginPopup");
+      const loginButton = document.getElementById("loginButton");
+      const closeButton = document.getElementById("closeLogin");
+
+      loginButton.addEventListener("click", function () {
+        loginPopup.style.display = "block";
+        loginPopup.style.transitionDuration = "10s";
+      });
+
+      closeButton.addEventListener("click", function () {
+        loginPopup.style.display = "none";
+      });
+
+
+    </script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
